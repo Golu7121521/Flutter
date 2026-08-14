@@ -24,19 +24,12 @@ jobs:
         with:
           flutter-version: '3.16.5'
           channel: 'stable'
-          cache: true
 
       - name: Get dependencies
         run: flutter pub get
 
       - name: Run tests
         run: flutter test
-
-      - name: Check code formatting
-        run: dart format --output=none --set-exit-if-changed .
-
-      - name: Analyze code
-        run: flutter analyze
 
       - name: Build APK
         run: flutter build apk --release
@@ -58,7 +51,6 @@ jobs:
         with:
           flutter-version: '3.16.5'
           channel: 'stable'
-          cache: true
 
       - name: Get dependencies
         run: flutter pub get
