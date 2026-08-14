@@ -1,0 +1,62 @@
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_*.png
+linked_assets/
+unlinked_assets/
+windows/flutter/generated_plugins.cmake
+windows/flutter/generated_version.rc
+windows/flutter/generated.plugins.cmake
+
+# Web
+web/flutter_service_worker.js
+
+# iOS
+ios/.symlinks/
+ios/.generated/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/Flutter/flutter_export_environment.sh
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+ios/Runner/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Android
+android/app/debug
+android/app/profile
+android/app/release
+android/.gradle/
+android/.idea/
+android/.classpath
+android/.project
+android/.settings/
+android/app/local.properties
+android/build/
+local.properties
+*.jks
+*.keystore
+
+# Miscellaneous
+.DS_Store
+.env
+.env.*
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.iml
+.metadata
+.history
